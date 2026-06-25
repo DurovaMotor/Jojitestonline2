@@ -1,8 +1,8 @@
 (function () {
   "use strict";
 
-  var VERSION = "20260526-configurable-ipgate";
-  var ACCESS_RULES = {"chinaIp":false,"chinaTimezone":false,"chineseLanguage":false};
+  var VERSION = "20260625-language-guard";
+  var ACCESS_RULES = {"chinaIp":false,"chinaTimezone":false,"chineseLanguage":true};
   var RULE_KEY = [
     ACCESS_RULES.chinaIp ? "ip1" : "ip0",
     ACCESS_RULES.chinaTimezone ? "tz1" : "tz0",
